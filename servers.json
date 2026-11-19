@@ -1,0 +1,14 @@
+{
+  "servers": [
+    {
+      "name": "Chickadee (Northflank)",
+      "url": "wss://p01--signaling--mhnjql8bwzmb.code.run",
+      "backups": ["wss://chickadee-signaling.onrender.com"]
+    },
+    {
+      "name": "Chickadee (Render)",
+      "url": "wss://chickadee-signaling.onrender.com",
+      "backups": ["wss://p01--signaling--mhnjql8bwzmb.code.run"]
+    }
+  ]
+}
